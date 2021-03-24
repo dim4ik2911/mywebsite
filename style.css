@@ -3,3 +3,65 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 62.5%;
+  font-weight: 300;
+  font-family: "Montserrat", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.row {
+  width: 1840px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(img/back-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+header h1 {
+  float: left;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f1f2f6;
+}
+
+header h2 {
+  float: left;
+  margin-top: 22rem;
+  font-size: 8rem;
+  font-weight: 500;
+  color: #f1f2f6;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: #f1f2f6;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 3px solid rgb(250, 244, 244);
+}
